@@ -1,0 +1,49 @@
+<html>
+    <head>
+<script src="index.js">
+</script>
+<link rel="stylesheet" href="index.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container" id="main">
+            <div id="i0"></div>
+            <h1 class="bg-dark" id="i1">Quiz<h1>
+            <div id="i2">
+                <br>
+                <div id="i3">
+                <button class="btn btn-danger"  onclick="abc()" id="start">Start Quiz</button>
+                <div id="i4">
+                    <div id="question1"></div> 
+                    <div id="answer1"></div>
+                     <div id="answer2"></div>
+                     <div id="answer3"></div>
+                     <div id="answer4"></div><br>
+                     <div id="correct1"></div><br>
+                     <button class="btn btn-warning" onclick="abc1()" id="submit">Submit</button>
+                     <div id="next"><button class="btn btn-success" onclick="nextquestion()">Next</button></div>
+                </div>  
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="ans">
+            <div id="i0"></div>
+            <h1 class="bg-dark" id="p"></h1>
+            <div id="i2"><h3>Answer key</h3>
+
+                <div id="i3">
+                 <div id="a4">
+                     <ul id="u"></ul>
+                </div>
+                </div>
+                <button class="btn btn-primary" onclick="restart()" id="r">Restart</button> 
+            </div>
+        </div>
+    </body>
+</html>
